@@ -1,0 +1,13 @@
+prefix=C:/invoice/venv/Library
+exec_prefix=C:/invoice/venv/Library
+libdir=C:/invoice/venv/Library/lib
+sharedlibdir=C:/invoice/venv/Library/lib
+includedir=C:/invoice/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
